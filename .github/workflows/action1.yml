@@ -1,0 +1,19 @@
+name: my first action 
+
+on: push
+
+job: 
+   first_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: welcome to my message 
+      run:  echo "my first action job"
+
+    - name: list file 
+      run: ls 
+
+    - name: read
+      run: cat README.MD
+      
+      - name: read
+      run: cat README.MD
